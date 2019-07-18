@@ -9,7 +9,7 @@ INSERT INTO `imports_categories` (name, label) VALUES
 	('carimport','Imports')
 ;
 
-CREATE TABLE `carimport` (
+CREATE TABLE `imports` (
 	`name` varchar(60) NOT NULL,
 	`model` varchar(60) NOT NULL,
 	`price` int(11) NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE `carimport` (
 	PRIMARY KEY (`model`)
 );
 
-INSERT INTO `carimport` (name, model, price, category) VALUES
+INSERT INTO `imports` (name, model, price, category) VALUES
 ('Exemplar','exemplar',32000,'coupes'),
 	('F620','f620',40000,'coupes')
 
